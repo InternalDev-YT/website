@@ -3,63 +3,111 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>InternalDev's website</title>
         <link rel="stylesheet" href="/css/styles.css">
-        <title>InternalDev's Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script src="https://unpkg.com/turbolinks@5.2.0/dist/turbolinks.js"></script>
     </head>
-    <body class="dark">
-        <nav class="navbar" id="navbar">
-            <div class="navbar-content">
-                <div class="logo">
-                    <a href="/">
+    <header>
+        <nav>
+                <div class="icons"></div>
+                <div class="nbar-content">
+            <ui class="logo_nbar">
+                <li class="button">
+                    <a href="/" class="logo">
                         <img src="/png/website_header.png" class="icon"/>
                     </a>
-                </div>
-                <div class="nav-elements">
-                    <div class="nav-element" id="dark">
-                        <div class="ld-toogle-container">
-                            <input class="ld-toogle-input" id="ld-toogle" type="checkbox"/>
-                            <label class="ld-toogle" for="ld-toogle">
-                                <div class="ld-track">
-                                    <div class="ld-background-layer"></div>
-                                    <div class="ld-grid-layer"></div>
-                                    <div class="ld-spm-analyzer">
-                                        <div class="ld-spm-bar"></div>
-                                        <div class="ld-spm-bar"></div>
-                                        <div class="ld-spm-bar"></div>
-                                        <div class="ld-spm-bar"></div>
-                                        <div class="ld-spm-bar"></div>
-                                    </div>
-                                    <div class="ld-track-highlight"></div>
-                                </div>
+                </li>
+            </ui>
+            <ui>
+                <li class="button">
+                    <a href="/about.html" class="imbutton">
+                        <img src="/png/About.ico" class="icons_button" alt="About Icon">
+                        <span>About</span>
+                    </a>
+                </li>
+    
+                <li class="button">
+                    <a href="/files.html" class="imbutton">
+                        <img src="/png/Files.ico" class="icons_button" alt="Files Icon">
+                        <span>Files</span>
+                    </a>
+                </li>
+    
+                <li class="button">
+                    <a href="/projects.html" class="imbutton">
+                        <img src="/png/Projects.ico" class="icons_button" alt="Projects Icon">
+                        <span>Projects</span>
+                    </a>
+                </li>
+            </ui>
+        </nav>
+            </div>
+        </div>
+        <div class="right_buttons">
+        <li class="button">
+            <a class="imbutton" href="/links/yt">
+                <img src="/png/yt_144x144.png" class="icons">
+            </a>
+        </li> 
+    
+        <li class="button">
+            <a class="imbutton" href="/links/twitter">
+                <img src="/png/twitter.ico" class="icons">
+            </a>
+        </li>
+    
+        <li class="button">
+            <a class="imbutton" href="/links/github">
+                <img src="/png/github.png" class="icons">
+            </a>
+        </li>
+        <label class="switch">
 
-                                <div class="ld-thumb">
-                                    <div class="ld-thumb-ring"></div>
-                                    <div class="ld-thumb-core">
-                                        <div class="ld-thumb-icon">
-                                            <div class="ld-thumb-wave"></div>
-                                            <div class="ld-thumb-pulse"></div>
-                                        </div>
-                                    </div>
-                                </div>
+            <input checked="true" id="checkbox" type="checkbox" />
+            <span class="slider">
 
-                                <div class="ld-gesture-area"></div>
+                <div class="star star_1"></div>
+                <div class="star star_2"></div>
+                <div class="star star_3"></div>
+                <svg viewBox="0 0 16 16" class="cloud_1 cloud">
+                <path
+                    transform="matrix(.77976 0 0 .78395-299.99-418.63)"
+                    fill="#fff"
+                    d="m391.84 540.91c-.421-.329-.949-.524-1.523-.524-1.351 0-2.451 1.084-2.485 2.435-1.395.526-2.388 1.88-2.388 3.466 0 1.874 1.385 3.423 3.182 3.667v.034h12.73v-.006c1.775-.104 3.182-1.584 3.182-3.395 0-1.747-1.309-3.186-2.994-3.379.007-.106.011-.214.011-.322 0-2.707-2.271-4.901-5.072-4.901-2.073 0-3.856 1.202-4.643 2.925">
+                </path>
+                </svg>
+            </span>
+        </label>
+    </div>
+    </div>
+    </header>
+    <body>
+            <div class="container">
+                <h2>Welcome to InternalDev's website!</h2>
 
-                                <div class="ld-interaction-feedback">
-                                    <div class="ld-ripple"></div>
-                                    <div class="ld-progress-arc"></div>
-                                  </div>
+                <p>TODO:</p>
 
-                                  <div class="ld-status">
-                                    <div class="ld-status-indicator">
-                                      <div class="ld-status-dot"></div>
-                                      <div class="ld-status-text"></div>
-                                    </div>
-                                  </div>
-                            </label>
-                        </div>
-                    </div>
+                <div class="content">
+
                 </div>
             </div>
-        </nav>
+            <script src="vids-list.js"></script>
     </body>
+
+    <footer class="footer">
+        <h4></h4>
+        <li class="button">
+            <a class="imhiddenbutton" href="/ver.txt">
+                <span>InternalWeb v.10.0</span>
+            </a>
+        </li>
+        <h4></h4>
+        <li class="button">
+            <a class="imhiddenbutton" href="/">
+                <span>Copyright &copy; 2025 InternalDev</span>
+            </a>
+        </li>
+        <h4></h4>
+    </footer>
 </html>
